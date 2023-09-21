@@ -1,0 +1,240 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;800&family=Alegreya:ital,wght@0,800;1,500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+body{
+    background-color:antiquewhite;
+    height:100vh;
+}
+img{
+    display:block; 
+    max-width: 100%; /* to be responsible*/
+    height: auto;
+    
+}
+main{
+/*     
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:35%;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    overflow: hidden; */
+  
+   
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:35%;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+   
+
+}
+aside{
+    margin: 15px;
+  
+    
+}
+aside h3 {
+   margin-left:-5px;
+   color:grey;
+   opacity:0.9;
+   letter-spacing: 0.4;
+}
+a{
+    text-decoration:none;
+    font-weight: bold;
+    color:black;
+}
+section{
+    display: grid;
+   
+}
+h1, p{
+    margin-top:10px;
+    
+}
+
+.paragraph{
+    font-size: x-large;
+    color:green;
+    opacity: 0.6;
+    font-weight: bold;
+}
+s{
+    display: flex;
+    position: absolute;
+    margin-left: 90px;
+    margin-top:-30px ;
+}
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    color:black;
+    opacity: 0.8;
+}
+.btn   {
+    background-color: green;
+    border-radius: 5px;
+    width:200px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top:20px;
+   
+}
+span img{
+    margin-right: 10px;
+    top:auto;
+    bottom:auto;
+    
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Media is not great experienced by myself, and I feel
+I have made plenty of mistakes, hence don't judge me too much */
+@media (max-width: 1300px) {
+    .container {
+        width: 50%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+
+@media (max-width: 1125px) {
+    .container {
+        width: 48%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+@media (max-width: 942px) {
+    .container {
+        width: 55%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+@media (max-width: 824px) {
+    .container {
+        width: 60%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        width: 67%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+
+@media (max-width: 680px) {
+    .container {
+        width: 77%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+@media (max-width: 590px) {
+    .container {
+        width: 87%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+@media (max-width: 590px) {
+    .container {
+        width: 90%;
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+@media (max-width: 590px) {
+    .container {
+        width: 91%;
+
+    }
+    aside {
+        margin: 15px; 
+    }
+}
+
+@media (max-width: 490px) {
+    .container {
+        width: 100%;
+       
+    }
+    aside {
+        margin: 15px; /* Adjust margins as needed */
+    }
+}
+
+
+/* Styles for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 500px) {
+    .container {
+        width: 90%; /* Adjust the width as needed for your design */
+        grid-template-columns: 1fr; /* Stack columns vertically */
+         /* Adjust margins as needed */
+    }
+   
+    img{
+        width:100%;
+        height:100%;
+        
+    }
+    
+    a{
+        margin-left: 10px;
+    }
+
+    
+
+}
